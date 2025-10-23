@@ -23,9 +23,10 @@ Tous les services (qBittorrent, Radarr, Prowlarr) passent **par le VPN Gluetun**
 Aucun trafic torrent ne sort donc en dehors du tunnel VPN.  
 Les interfaces web restent accessibles localement grâce à l’ouverture contrôlée des ports dans Gluetun.
 
-- **qBittorrent** : Client torrent léger et performant utilisé pour télécharger les fichiers.
-- **Radarr** : Outil de gestion automatisée de films. Il recherche, télécharge et organise les films.
-- **Prowlarr** : Un gestionnaire d'indexeurs pour Radarr et Sonarr, améliorant la recherche et le téléchargement.
+- **qBittorrent** : [http://localhost:8080](http://localhost:8080)
+- **Radarr** : [http://localhost:7878](http://localhost:7878)
+- **Prowlarr** : [http://localhost:9696](http://localhost:9696)
+
 ---
 
 ## ⚙️ Prérequis
